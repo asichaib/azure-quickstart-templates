@@ -17,6 +17,7 @@
 # Simple script that shows how to use the Cloudera Director API to initialize
 # the environment and instance templates
 
+import utils.session
 import urllib
 import urllib2
 from optparse import OptionParser
